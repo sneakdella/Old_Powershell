@@ -11,7 +11,7 @@
 <# be imported into Remote Desktop Connection Manager 2.7!  #>
 $ou_list = @()
 
-Get-ADGroup -Filter 'Name -like "*"' -SearchBase "OU=ComputerGroups,DC=jakeyuhas,DC=com" | select name | ForEach-Object {$ou_list += $_}
+Get-ADGroup -Filter 'Name -like "*"' -SearchBase "OU=ComputerGroups,DC=sneakdella,DC=com" | select name | ForEach-Object {$ou_list += $_}
 
 ForEach ($grp in $ou_list) {
     $filename = $grp.name
@@ -22,7 +22,7 @@ ForEach ($grp in $ou_list) {
     ForEach ($child in $child_list) {
         $lechild = $child.name
         Write-Host "$lechild"
-        "$lechild" | Out-File -append -Encoding Ascii C:\Users\Administrator.JAKEYUHAS\Desktop\$filename.txt
+        "$lechild" | Out-File -append -Encoding Ascii C:\Users\Administrator.sneakdella\Desktop\$filename.txt
     }
     Write-Host ""
 }
