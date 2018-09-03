@@ -1,4 +1,4 @@
-﻿<# WRITTEN BY JACOB YUHAS #>
+﻿<# WRITTEN BY YUHAS #>
 
 <# This script will #>
 <# Retrieve all Security Groups of a specific OU #>
