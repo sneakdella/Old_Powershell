@@ -1,5 +1,5 @@
 ﻿<# 
-SCRIPT AUTHOR: Jacob Yuhas
+SCRIPT AUTHOR: Sneakdella
 
 INTENT OF SCRIPT: Lookup Domain Computers faster. Search by the beginning computer number or grab a list of computers by room number.
 
@@ -7,7 +7,7 @@ INTENT OF SCRIPT: Lookup Domain Computers faster. Search by the beginning comput
 
 Write-Host "
 `n########################################################
-`nSCRIPT AUTHOR: Jacob Yuhas
+`nSCRIPT AUTHOR: Sneakdella
 `n
 `nINTENT OF SCRIPT: 
 `n`tLookup Domain Computer's FQDN faster. 
