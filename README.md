@@ -9,7 +9,7 @@
       
 2.) Search_for_comps
 
-    SCRIPT AUTHOR: Jacob Yuhas
+    SCRIPT AUTHOR: Sneakdella
 
     INTENT OF SCRIPT: 
     Lookup Domain Computer's FQDN faster. 
